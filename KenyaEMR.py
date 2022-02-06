@@ -29,7 +29,7 @@ services_open = [
      "description":"Lab service"
      },
 ]
-
+#list of ports closed to  enusure that closed ports remain closed for security purposes 
 services_closed = [
     {"port": "80",
      "description":"Notifiy service"
